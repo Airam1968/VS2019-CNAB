@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CNAB"
         mc:Ignorable="d"
-        Title="CNAB Inova - Bradesco" 
+        Title="CNAB Inova - Bradesco 2018" 
         Height="450" Width="800"
         Background="DarkGray"
         WindowStartupLocation="CenterScreen"
