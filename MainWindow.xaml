@@ -1,0 +1,34 @@
+﻿<Window x:Class="CNAB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CNAB"
+        mc:Ignorable="d"
+        Title="CNAB Inova - Bradesco" 
+        Height="450" Width="800"
+        Background="DarkGray"
+        WindowStartupLocation="CenterScreen"
+        WindowState="Normal"
+        WindowStyle="ThreeDBorderWindow"
+        >
+    <Grid Margin="15">
+        <StackPanel Orientation="Vertical"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Top">
+        </StackPanel>
+        <TextBlock HorizontalAlignment="Left" Margin="303,5,0,0" TextWrapping="Wrap" Text="Gerador de Arquivo CNAB" VerticalAlignment="Top"/>
+        <TextBox Name="edarquivoorigem" HorizontalAlignment="Left" Height="23" Margin="165,50,0,0" TextWrapping="Wrap" Text="D:\GITANO\Projetos\VS2019\Desenvolvimento\CNAB_Inova\CNAB\relatorio_ListaKS_2904_03.CSV" VerticalAlignment="Top" Width="540"/>
+        <Label Content="Arquivo Origem (CSV):" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Width="150"/>
+
+        <Label Content="Arquivo Destino (CNAB):" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top" Width="150"/>
+        <TextBox Name="edarquivodestino" HorizontalAlignment="Left" Height="23" Margin="165,100,0,0" TextWrapping="Wrap" Text="D:\GITANO\Projetos\VS2019\Desenvolvimento\CNAB_Inova\CNAB\relatorio_ListaKS_2904_03.TXT" VerticalAlignment="Top" Width="540"/>
+
+        <Button Name="btprocessa" Content="Processa Arquivo" HorizontalAlignment="Left" Margin="165,146,0,0" VerticalAlignment="Top" Width="112" FontFamily="Segoe UI Semibold" Click="Button_Click"/>
+        <Button Name="btfechar" Content="Fechar" HorizontalAlignment="Left" Margin="593,146,0,0" VerticalAlignment="Top" Width="112" FontFamily="Segoe UI Semibold" Click="Button_Click_1" />
+
+        <TextBox Name="edprogresso" ScrollViewer.VerticalScrollBarVisibility="Visible" HorizontalAlignment="Left" Margin="30,200,0,0" TextWrapping="Wrap" Text="Progresso da geração do arquivo." VerticalAlignment="Top" Height="161" Width="675" Background="White"/>
+
+
+    </Grid>
+</Window>

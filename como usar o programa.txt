@@ -1,0 +1,22 @@
+Como instalar o programa:
+
+Clique no arquivo setup e aceite a instalação do .NET Framaword 4.7.2.
+Confirme o processo até concluir a instalação.
+
+
+
+Procedimentos para o uso do Gerador de CNAB Bradesco:
+
+Preparar o arquivo excel:
+abrir o arquivo excel, ele deverá ter apenas a planilha\aba com os dados para geração.
+gravar a planilha excel com o tipo CSV puro.
+
+Programa Gerador:
+Abrir o CNAB.exe.
+Conferir o endereço e nome do arquivo origem.
+Conferir o endereço e nome do arquivo destino.
+clicar em gerar arquivo e aguardar.
+Quando der a mensagem de Concluido, fechar mensagem e fechar o programa.
+
+
+Enviar arquivo para a factoring para validação.
