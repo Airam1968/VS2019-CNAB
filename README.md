@@ -1,11 +1,3 @@
-# 
-VS2019-CNAB
-
-Projeto Inova-Universidade Cândido Mendes RJ
-
-
-
-
 # VS2019-CNAB
 
 > Projeto Inova-Universidade Cândido Mendes RJ
